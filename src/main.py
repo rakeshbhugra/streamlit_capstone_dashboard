@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-# from data_validation_live_coding import DataFrameValidator
+from utils.data_validation_live_coding import DataFrameValidator
 
 def save_to_database(uploaded_df, filename):
     try:
